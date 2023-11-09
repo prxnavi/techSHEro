@@ -211,6 +211,6 @@ and (max-width : 620px) {
     font-size: 30px;
   }
   nav ul {
-    font-size: 18px;
+    display: none;
   }
 }
