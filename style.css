@@ -178,3 +178,39 @@ footer {
   display: flex;
   justify-content: space-evenly;
 }
+
+@media only screen
+and (max-width : 620px) {
+  .slogan {
+    font-size: 3em;
+  }
+  .row-mission {
+    display: flex;
+    flex-direction: column;
+  }
+  .row-classes {
+    display: flex;
+    flex-direction: column;
+  }
+  .row-about-us {
+    display: flex;
+    flex-direction: column;
+  }
+  .headshot {
+    height: 11%;
+    padding-bottom: 10px;
+  }
+  .bio {
+    padding: 10px;
+  }
+  .mentors-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .quotee {
+    font-size: 30px;
+  }
+  nav ul {
+    font-size: 18px;
+  }
+}
